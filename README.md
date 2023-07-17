@@ -1,12 +1,8 @@
-## Pytorch version of 'How far are we from solving the 2D \& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)'
+## Face Alignment problem solving
 
-  For official torch7 version please refer to face-alignment-training [https://github.com/1adrianb/face-alignment-training] 
+This code solves the face alignment problem using the FAN model to train the facial landmarks dataset.
 
-  This is a reinplement of training code for 2D-FAN and 3D-FAN decribed in "How far" paper. Please visit author's webpage [https://www.adrianbulat.com] or arxiv [https://arxiv.org/abs/1703.07332] for technical details.
-
-  Thanks for bearpaw's excellent work on human pose estimation [https://github.com/bearpaw/pytorch-pose] . And in this project, I reused a branch of helper function from pytorch-pose.
-
-  Pretrained models are available soon.
+Thanks for Ladrianb's excellent work on face-alignment-training [https://github.com/1adrianb/face alignment-training]. And in this project, I reused and updated code for 2D-FAN and 3D-FAN described in the "How far are we from solving the 2D \& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)" paper. Please visit the author's webpage [https://www.adrianbulat.com] or arxiv [https://arxiv.org/abs/1703.07332] for technical details.
 
 ## Requirments
 
@@ -20,16 +16,16 @@
 
 ## Train
 
-   1. Clone the github repository and install all the dependencies mentiones above.
+   1. Clone the GitHub repository and install all the dependencies mentioned above.
    
             git clone https://github.com/lippman1125/pytorch_FAN
 
 
-   2. Download the LS3D-W dataset from the authors webpage (https://www.adrianbulat.com/face-alignment). 
+   2. Download the LS3D-W dataset from the authors' webpage (https://www.adrianbulat.com/face-alignment). 
 
    3. Download the 300W-LP annotations converted to t7 format by paper author from (https://www.adrianbulat.com/downloads/FaceAlignment/landmarks.zip).
    
-   4. We merge LS3D-W dataset and 300W-LP dataset together to train our model.
+   4. We merge the LS3D-W dataset and 300W-LP dataset together to train our model.
    
       cd data/LS3D-W                    <br>
       tree -d -L 1                      <br>
@@ -40,7 +36,7 @@
             |-- AFLW2000-3D-Reannotated 
             `-- Menpo-3D
        
-      Validation set is testset of 300W-LP
+      The validation set is test set of 300W-LP
 
    5. Start to train:
 
@@ -65,7 +61,6 @@
 
 ## Citation
 
-
       {
        @inproceedings{bulat2017far,
          title={How far are we from solving the 2D \& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)},
@@ -73,7 +68,4 @@
          booktitle={International Conference on Computer Vision},
          year={2017}
        }
-
-## Refenerce
-
-- https://github.com/hzh8311/pyhowfar
+       
