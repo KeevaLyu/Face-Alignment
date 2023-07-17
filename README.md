@@ -1,8 +1,12 @@
-## Face Alignment problem solving
+## Pytorch version of 'How far are we from solving the 2D \& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)'
 
-This code solves the face alignment problem using the FAN model to train the facial landmarks dataset.
+  For official torch7 version please refer to face-alignment-training [https://github.com/1adrianb/face-alignment-training] 
 
-Thanks for ladrianb's excellent work on face-alignment-training [https://github.com/1adrianb/face-alignment-training] . And in this project, I reused and updated of code for 2D-FAN and 3D-FAN decribed in "How far are we from solving the 2D \& 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks)" paper. Please visit author's webpage [https://www.adrianbulat.com] or arxiv [https://arxiv.org/abs/1703.07332] for technical details.
+  This is a reinplement of training code for 2D-FAN and 3D-FAN decribed in "How far" paper. Please visit author's webpage [https://www.adrianbulat.com] or arxiv [https://arxiv.org/abs/1703.07332] for technical details.
+
+  Thanks for bearpaw's excellent work on human pose estimation [https://github.com/bearpaw/pytorch-pose] . And in this project, I reused a branch of helper function from pytorch-pose.
+
+  Pretrained models are available soon.
 
 ## Requirments
 
