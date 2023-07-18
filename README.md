@@ -18,7 +18,7 @@ Thanks for Ladrianb's excellent work on face-alignment-training [https://github.
 
    1. Clone the GitHub repository and install all the dependencies mentioned above.
    
-            git clone https://github.com/lippman1125/pytorch_FAN
+            git clone https://github.com/KeevaLyu/Face-Alignment
 
 
    2. Download the LS3D-W dataset from the authors' webpage (https://www.adrianbulat.com/face-alignment). 
